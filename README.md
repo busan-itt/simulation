@@ -60,3 +60,9 @@ GitHub에서 노트북의 저장된 설명, 표와 그래프를 열람할 수 �
 
 [프로젝트 소개](https://github.com/busan-itt) · [데이터](https://github.com/busan-itt/data) · [분석 레포트 및 EDA](https://github.com/busan-itt/analysis)
 
+
+## 대시보드
+
+- `dashboard/`: 최종 결과를 보여주는 Streamlit 앱 (`streamlit run dashboard/app.py`). 자세한 내용은 `dashboard/README.md`
+- [최종 시뮬레이션.ipynb](<최종 시뮬레이션.ipynb>) 마지막 셀이 대시보드용 결과표를 저장함
+
