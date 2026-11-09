@@ -41,6 +41,11 @@
 - `simulation_v5.ipynb`, `report/결과보고서_5차.pdf`, `report/figures/fig7_v5_calibration.png`
 - 논문의 8.7h에 맞춰 점유시간 배수(m=1.16)를 보정. 앞당김 감소율은 거의 같고, 통합(B, C)의 대기 저감과 다른 배 지연 흡수 효과가 커짐
 
+## 6차 시뮬레이션 (머신러닝 예측모델 + 8.7h 기준)
+
+- `simulation_v6.ipynb`, `report/결과보고서_6차.pdf`, `report/figures/fig8_v6_ml.png`
+- 점유시간·선박 길이를 그래디언트 부스팅으로 예측해 입력으로 사용. 예측 정확도는 크게 향상(점유시간 MAE 8.8h에서 4.3h, 선박 길이 86m에서 22m)했지만 앞당김 감소율 결론은 같음
+
 ## 쉬운 설명
 
 - `docs/쉬운설명.md` (PDF: `docs/쉬운설명.pdf`): 1~4차를 초등학생도 알 수 있게 비유로 설명한 파일
